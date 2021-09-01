@@ -1,0 +1,46 @@
+* {
+    margin-top: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#get-residents-btn {
+    border: 5px solid rgb(13, 54, 13);
+    height: 100px;
+    width: 400px;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+#get-residents-btn:hover {
+    background-color: rgb(81, 180, 81);
+}
+
+#get-residents-btn:active {
+    background-color: green;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    background-color: darkgray;
+    height: 100px;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+content {
+    padding-top: 30px;
+}
